@@ -98,7 +98,7 @@ a:visited {
     .header .menu__item .item__link:hover,
     .header .header__action .item__link:hover {
       color: #ff9c8e; }
-  .header .slider {
+  .header .header__slider {
     position: absolute;
     -webkit-transform-origin: right bottom;
             transform-origin: right bottom;
