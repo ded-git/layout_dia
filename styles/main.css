@@ -456,10 +456,6 @@ a:visited {
             justify-content: flex-end;
     width: 558px;
     margin-top: 148px; }
-    .process__cards__icon {
-      width: 40px;
-      height: 40px;
-      border-radius: 50%; }
 
 .cards__column-1, .cards__column-2 {
   height: 558px;
@@ -537,6 +533,9 @@ a:visited {
     margin-left: 16px; }
 
 .cards__icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
   position: relative;
   -webkit-transition: scale 0.7s;
   transition: scale 0.7s; }
