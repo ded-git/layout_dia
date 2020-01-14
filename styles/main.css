@@ -26,6 +26,10 @@ a:visited {
   padding: 0;
   cursor: pointer; }
 
+.wrapper {
+  max-width: 1146px;
+  margin: 0 auto; }
+
 .header {
   position: relative;
   -webkit-box-sizing: border-box;
@@ -250,6 +254,8 @@ a:visited {
     display: none; }
   .header__action::before {
     width: 69px; }
+  .header__content {
+    height: 300px; }
   .logo {
     position: absolute; }
   .content .info {
@@ -261,8 +267,10 @@ a:visited {
     .content .info__text-value {
       max-width: 350px; }
     .content .info__title-name {
-      margin-top: 150px;
+      margin-top: 0;
       font-size: 40px; }
+    .content .info__title-name.open {
+      margin-top: 150px; }
     .content .info__button {
       margin-top: 30px; }
   .slider {
@@ -273,8 +281,10 @@ a:visited {
     border-bottom-left-radius: 90px; }
     .header__wrapper {
       margin: auto 50px; }
-  .info__title-name {
-    text-align: center; } }
+  .info__title-name, .info__text-value {
+    text-align: center; }
+  .info__button {
+    margin: 0 auto; } }
 
 body {
   background: #eee; }
