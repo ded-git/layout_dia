@@ -211,7 +211,7 @@ a:visited {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 3px;
-    margin-bottom: 8px; }
+    margin: 0 0 8px; }
   .slider .intro__text {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
@@ -383,12 +383,6 @@ a:visited {
     width: 166px;
     border-radius: 25px;
     margin: 0 auto; }
-  .expertise .img-branding {
-    background-image: url("../images/what-we-do/image-1.png"); }
-  .expertise .img-communication {
-    background-image: url("../images/what-we-do/image-2.png"); }
-  .expertise .img-strategy {
-    background-image: url("../images/what-we-do/image-3.png"); }
   .expertise .product__name {
     color: #253757;
     font-weight: 600;
@@ -451,6 +445,8 @@ a:visited {
     color: #c0cdd7;
     font-size: 13px;
     font-weight: bold; }
+  .process__text--first {
+    margin-bottom: 20px; }
   .process__cards {
     position: relative;
     display: -webkit-box;
@@ -555,7 +551,7 @@ a:visited {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%); }
 
-.cards__link-value {
+.cards .cards__link-value {
   font-weight: 600;
   font-size: 15px;
   line-height: 22px;
