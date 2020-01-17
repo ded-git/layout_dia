@@ -1186,8 +1186,8 @@ a:visited {
   .contact__title {
     color: #fff;
     margin: 0 0 56px; }
-  .contact__social__image img:hover {
-    opacity: 0.5; }
+  .contact__social .social__image:hover {
+    color: rgba(255, 255, 255, 0.5); }
   .contact__social .social__value {
     margin-top: 20px; }
   .contact__social .social__image--facebook {
