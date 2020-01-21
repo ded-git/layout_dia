@@ -1247,13 +1247,13 @@ body .button:hover {
   .contact__title {
     color: #fff;
     margin: 0 0 56px; }
-  .contact__social .social__image:hover {
+  .contact__socials .socials__image:hover {
     color: rgba(255, 255, 255, 0.5); }
-  .contact__social .social__value {
+  .contact__socials .socials__value {
     margin-top: 20px; }
-  .contact__social .social__image--facebook {
+  .contact__socials .socials__image--facebook {
     margin-right: 45px; }
-  .contact__social .social__image--twitter {
+  .contact__socials .socials__image--twitter {
     margin-right: 40px; }
 
 .menu__item {
@@ -1303,7 +1303,7 @@ body .button:hover {
   .footer .input {
     width: 200px; }
   .footer .menu {
-    width: 250px; }
+    display: none; }
   .bottom {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -1349,9 +1349,7 @@ body .button:hover {
       text-align: center;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
-              justify-content: center; }
-    .footer .menu {
-      display: none; } }
+              justify-content: center; } }
 
 body {
   background: #eee; }
