@@ -8,6 +8,9 @@ h1 {
   font-weight: normal;
   font-style: normal; }
 
+html {
+  scroll-behavior: smooth; }
+
 body {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -267,7 +270,8 @@ body .button:hover {
     cursor: pointer;
     background-color: #fff;
     background-position: center;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    outline: none; }
     .slider .arrow__round-arrow--left {
       background-image: url("../images/slider/arrow-l.svg"); }
     .slider .arrow__round-arrow--right {
@@ -981,7 +985,7 @@ body .button:hover {
   display: flex;
   height: 691px;
   background-color: #fff;
-  z-index: -3; }
+  z-index: 1; }
   .vpr__background {
     position: relative;
     display: -webkit-box;
@@ -990,7 +994,7 @@ body .button:hover {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    z-index: -2;
+    z-index: 2;
     background-color: #fff;
     width: 1600px;
     left: 50%;
@@ -1013,7 +1017,8 @@ body .button:hover {
             flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center; }
+            align-items: center;
+    z-index: 4; }
   .vpr__title {
     text-align: center; }
   .vpr__text {
@@ -1023,19 +1028,21 @@ body .button:hover {
     font-size: 12px;
     font-weight: 600;
     font-family: "Poppins", sans-serif; }
+    .vpr .button__link:hover {
+      cursor: pointer; }
 
 .button {
   font-size: 12px;
   font-weight: 600;
   font-family: "Poppins", sans-serif; }
-  .button .button__link {
+  .button:hover {
     cursor: pointer; }
 
 .elipse {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   position: absolute;
-  z-index: -1; }
+  z-index: 3; }
   .elipse__big {
     width: 143px;
     height: 56px;
