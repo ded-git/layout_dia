@@ -87,7 +87,12 @@ body .button:hover {
   border: 1px solid #ff9c8e;
   background-color: #fff; }
   body .button:hover .button__link {
-    color: #ff9c8e; }
+    color: #ff9c8e;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s; }
+
+.form__button {
+  color: #ff9c8e; }
 
 .form__button:hover {
   color: #ff9c8e; }
@@ -160,8 +165,8 @@ body .button:hover {
     letter-spacing: 3px; }
     .header .menu__item .item__link,
     .header .header__action .item__link {
-      -webkit-transition: color 0.6s;
-      transition: color 0.6s; }
+      -webkit-transition: color 0.3s;
+      transition: color 0.3s; }
     .header .menu__item .item__link:hover,
     .header .header__action .item__link:hover {
       color: #ff9c8e; }
@@ -204,8 +209,8 @@ body .button:hover {
     margin-top: 56px;
     border-radius: 64px;
     border: none;
-    -webkit-transition: scale 1s;
-    transition: scale 1s; }
+    -webkit-transition: scale 1s, color 0.3s;
+    transition: scale 1s, color 0.3s; }
   .content .content__slider {
     position: absolute;
     bottom: -100px;
@@ -262,15 +267,16 @@ body .button:hover {
     background-color: #fff;
     width: 32px;
     height: 32px;
-    border-radius: 50%; }
+    border-radius: 50%;
+    cursor: pointer; }
   .slider .arrow__round-arrow {
     width: 6px;
     height: 9px;
     border: 0;
-    cursor: pointer;
     background-color: #fff;
     background-position: center;
     background-repeat: no-repeat;
+    cursor: pointer;
     outline: none; }
     .slider .arrow__round-arrow--left {
       background-image: url("../images/slider/arrow-l.svg"); }
@@ -1247,7 +1253,9 @@ body .button:hover {
 .form__button {
   margin: 38px 0;
   color: #fff;
-  cursor: pointer; }
+  cursor: pointer;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s; }
 
 .contact {
   max-width: 462px; }
@@ -1269,8 +1277,8 @@ body .button:hover {
   font-size: 13px;
   letter-spacing: 3px; }
   .menu__item .item__link {
-    -webkit-transition: color 0.6s;
-    transition: color 0.6s; }
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s; }
   .menu__item .item__link:hover {
     color: #ff9c8e; }
 
